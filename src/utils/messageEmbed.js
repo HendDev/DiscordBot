@@ -5,6 +5,8 @@ const messageEmbed = ({ authorName, title, content }) => {
   const msgEmbed = new Discord.MessageEmbed()
     .setColor('#723ceb')
     .setTitle(`Hola ${authorName}`)
+    .setImage(message.author.avatarURL)
+    .setThumbnail(message.author.avatarURL)
     .setColor('#0099ff')
     .setDescription(`${title} ${parseContent}`)
     .setColor('#723ceb')
