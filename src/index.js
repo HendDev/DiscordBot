@@ -5,6 +5,7 @@ const messageEmbed = require('./utils/messageEmbed');
 require('dotenv').config();
 
 const rules = require('./messages/rules.json');
+const redes = require('./messages/redes.json');
 
 const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
 
