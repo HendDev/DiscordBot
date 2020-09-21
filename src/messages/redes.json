@@ -1,8 +1,9 @@
 {
-    "customMessage": "Síguenos en:",
+    "customMessage": "Síguenos en: \n",
     "redes": [
-        "Fb: https://www.facebook.com/hend.devv",
-        "Ig: https://www.instagram.com/hend.devv/",
-        "Tw: https://twitter.com/HendDev"
+        "Facebook: https://www.facebook.com/hend.devv",
+        "Instagram: https://www.instagram.com/hend.devv/",
+        "Twitter: https://twitter.com/HendDev",
+        "Github: https://github.com/HendDev"
     ]
 }
