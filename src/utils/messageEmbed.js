@@ -4,7 +4,7 @@ const messageEmbed = ({ authorName, title, content }) => {
   const parseContent = content.map(i => `${i}\n`)
   const msgEmbed = new Discord.MessageEmbed()
     .setColor('#0099ff')
-    .setTitle(`Hola ${authorName}`)
+    .setTitle(`Hola <b style="color: #723ceb">${authorName}<b>`)
     .setDescription(`${title} ${parseContent}`)
     .setFooter('Comunidad Hend')
 
