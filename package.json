@@ -1,0 +1,23 @@
+{
+  "name": "hendbot",
+  "version": "1.0.0",
+  "description": "simple discord bot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [
+    "discord",
+    "javascript",
+    "node",
+    "discordjs"
+  ],
+  "author": "Salomon Sanchez <hend.digital@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0"
+  }
+}
