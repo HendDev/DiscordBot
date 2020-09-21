@@ -30,7 +30,7 @@ client.on('message', msg => {
     }))
   }
 
-  if (msg.content.toLocaleLowerCase() === 'hola') {
+  if (msg.content.toLocaleLowerCase() = 'hola') {
     const author = msg.author.username
     msg.channel.send(messageEmbed({
       authorName: author,
