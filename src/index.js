@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const client = new Discord.Client();
+const client = new Discord.Client(); 
 const messageEmbed = require('./utils/messageEmbed');
 
 require('dotenv').config();
@@ -18,6 +18,16 @@ client.on('message', msg => {
       content: rules.rules
     }))
   }
+
+  if (msg.content.toLocaleLowerCase() === '!redes') {
+    const author = msg.author.username
+    msg.channel.send(messageEmbed({
+      authorName: author,
+      title: redes.customMessage,
+      content: redes.redes
+    }))
+  }
+  
 });
 
 client.on('ready', () => {
