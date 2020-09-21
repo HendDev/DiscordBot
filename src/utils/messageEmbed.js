@@ -6,7 +6,7 @@ const messageEmbed = ({ authorName, title, content }) => {
     .setColor('#0099ff')
     .setTitle(`Hola ${authorName}`)
     .setDescription(`${title} ${parseContent}`)
-    .setFooter('Comunidad de GNDX')
+    .setFooter('Comunidad de Hend')
 
   return msgEmbed;
 };
